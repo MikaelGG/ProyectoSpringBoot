@@ -4,14 +4,14 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-public class Persona2 {
+public class ReflectionWrapperClassesObjectMethods {
 
     private String nombre;
     private int edad;
 
-    public Persona2() {}
+    public ReflectionWrapperClassesObjectMethods() {}
 
-    public Persona2(String nombre, int edad) {
+    public ReflectionWrapperClassesObjectMethods(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
     }
@@ -27,7 +27,7 @@ public class Persona2 {
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
-        Persona2 persona = (Persona2) obj;
+        ReflectionWrapperClassesObjectMethods persona = (ReflectionWrapperClassesObjectMethods) obj;
         return edad == persona.edad && nombre.equals(persona.nombre);
     }
 
@@ -116,14 +116,14 @@ public class Persona2 {
 
 
     public static void main(String[] args) {
-        Persona2 persona1 = new Persona2("Carlos", 30);
-        Persona2 persona2 = new Persona2("Carlos", 30);
+        ReflectionWrapperClassesObjectMethods persona1 = new ReflectionWrapperClassesObjectMethods("Carlos", 30);
+        ReflectionWrapperClassesObjectMethods persona2 = new ReflectionWrapperClassesObjectMethods("Carlos", 30);
         System.out.println(persona1);
         System.out.println(persona1.equals(persona2)); // true
         System.out.println(persona1.hashCode() == persona2.hashCode());
         System.out.println(persona1.getClass());
 
-        Persona2 p = new Persona2();
+        ReflectionWrapperClassesObjectMethods p = new ReflectionWrapperClassesObjectMethods();
         p.wrapperClass(25, 15);
         p.wrapperClass(108, 108);
         p.wrapperClass(8, 1627);
