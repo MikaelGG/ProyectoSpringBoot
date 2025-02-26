@@ -2,7 +2,7 @@
   <artifact type="jar" name="practiceJavaLanguage:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/practiceJavaLanguage_jar</output-path>
     <root id="archive" name="practiceJavaLanguage.jar">
-      <element id="module-output" name="practiceJavaLanguage" />
+      <element id="module-output" name="SpringBootJava" />
     </root>
   </artifact>
 </component>

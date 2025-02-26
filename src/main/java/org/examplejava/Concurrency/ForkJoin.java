@@ -57,7 +57,7 @@ public class ForkJoin {
             arr[i] = i + 1;
         }
 
-        InmutableObject io = c.new InmutableObject(arr, 1, 1999);
+        InmutableObject io = c.new InmutableObject(arr, 0, 1999);
         long resultado = io.compute();
         System.out.println("Suma del arreglo: " + resultado);
 
