@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/src/main/resources/Label.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/Label_Label_pt_BR.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/Label_en.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/Label_pt_BR.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/resources/Label.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Label_en.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Label_pt_BR.properties" />
+      <base-name>Label</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/resources/Label.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Label_en.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Label_es.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Label_pt_BR.properties" />
+      <base-name>Label</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>
