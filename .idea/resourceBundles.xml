@@ -14,7 +14,6 @@
     <custom-resource-bundle>
       <file value="file://$PROJECT_DIR$/src/main/resources/Label.properties" />
       <file value="file://$PROJECT_DIR$/src/main/resources/Label_en.properties" />
-      <file value="file://$PROJECT_DIR$/src/main/resources/Label_es.properties" />
       <file value="file://$PROJECT_DIR$/src/main/resources/Label_pt_BR.properties" />
       <base-name>Label</base-name>
     </custom-resource-bundle>

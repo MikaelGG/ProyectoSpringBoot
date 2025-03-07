@@ -12,7 +12,7 @@ public class Multilingüe {
 
         // Multilingüe usando ResourceBundle
 
-        ResourceBundle resourceBundle = ResourceBundle.getBundle("Label_es", new Locale("es"));
+        ResourceBundle resourceBundle = ResourceBundle.getBundle("Label", new Locale("es"));
         ResourceBundle resourceBundle2 = ResourceBundle.getBundle("Label", Locale.US);
         ResourceBundle resourceBundle3 = ResourceBundle.getBundle("Label", new Locale("pt", "BR"));
 
